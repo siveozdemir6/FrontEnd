@@ -114,15 +114,15 @@ Proje kapsamında dört sayfa tasarlanmıştır: Ana Sayfa, Hakkında, Gezilecek
 
 🧠 Kullanılan Etiketler
 
-<nav> — Sayfalar arası navigasyon menüsü
+— Sayfalar arası navigasyon menüsü
 
-<h1>, <h2>, <p> — Başlıklar ve açıklama paragrafları
+— Başlıklar ve açıklama paragrafları
 
-<ul>, <ol> — Sıralı ve sırasız listeler
+— Sıralı ve sırasız listeler
 
-<img> — Görseller (üst dizindeki images klasöründen ../images/... ile çağrılır)
+— Görseller (üst dizindeki images klasöründen ../images/... ile çağrılır)
 
-<form> — Basit iletişim formu
+— Basit iletişim formu
 
 🎯 Amaç
 
