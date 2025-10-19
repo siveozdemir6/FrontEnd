@@ -105,3 +105,26 @@ Sayfada üç blog yazısı yer almaktadır: Tayland Gezi Rehberi, En İyi Bilim 
 🎯 Amaç
 
 Temel HTML etiketlerini kullanarak çok bölümlü, görsel destekli bir blog yapısı oluşturmak ve dosya sistemi üzerinden görsel çağırmayı öğrenmek.
+
+🧾 Ödev 5 – Rehber Web Sitesi Oluşturma (Tayland Rehberi)
+
+Bu proje, yalnızca HTML5 kullanılarak oluşturulmuş çok sayfalı bir web sitesidir.
+Site, Tayland’a seyahat etmeyi planlayanlar için hazırlanmış temel bir gezi rehberidir.
+Proje kapsamında dört sayfa tasarlanmıştır: Ana Sayfa, Hakkında, Gezilecek Yerler ve İletişim.
+
+🧠 Kullanılan Etiketler
+
+<nav> — Sayfalar arası navigasyon menüsü
+
+<h1>, <h2>, <p> — Başlıklar ve açıklama paragrafları
+
+<ul>, <ol> — Sıralı ve sırasız listeler
+
+<img> — Görseller (üst dizindeki images klasöründen ../images/... ile çağrılır)
+
+<form> — Basit iletişim formu
+
+🎯 Amaç
+
+HTML5 yapısını kullanarak çok sayfalı, menülü bir rehber sitesi geliştirmek ve
+klasörler arası görsel erişimini (../images/...) doğru şekilde uygulamayı öğrenmek.
