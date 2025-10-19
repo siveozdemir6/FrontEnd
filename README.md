@@ -56,15 +56,15 @@ Proje kapsamında temel HTML etiketleri, semantik yapı, bağlantılar ve iframe
 
 HTML5
 
-<h1>, <h2>, <p> – Başlık ve paragraflar
+– Başlık ve paragraflar
 
-<ol>, <ul>, <li> – Sıralı ve sırasız listeler
+– Sıralı ve sırasız listeler
 
-<a> – Harici bağlantılar (GitHub, LinkedIn, e-posta)
+ – Harici bağlantılar (GitHub, LinkedIn, e-posta)
 
-<iframe> – Dış içerik (YouTube videosu) entegrasyonu
+– Dış içerik (YouTube videosu) entegrasyonu
 
-<section> – İçeriğin bölümlere ayrılması
+– İçeriğin bölümlere ayrılması
 
 🧩 İçerik Yapısı
 
@@ -86,3 +86,22 @@ Yetenekler: Programlama dilleri, web teknolojileri, dil bilgisi
 
 HTML dilinin temel yapı taşlarını kullanarak, biçimlendirilmiş bir kişisel tanıtım sayfası oluşturmak.
 Bu çalışma, semantik etiketleme ve sayfa yapısının bölümlendirilmesi konularında temel bir pratik sağlar.
+
+🧾 Ödev 2 – Kişisel Blog Sayfası Oluşturma
+
+Bu proje, yalnızca HTML5 kullanılarak hazırlanmış basit bir kişisel blog sayfasıdır.
+Sayfada üç blog yazısı yer almaktadır: Tayland Gezi Rehberi, En İyi Bilim Kurgu Filmleri ve Jack London Kitaplarına Başlarken.
+
+💡 Kullanılan Yapılar
+
+— Başlıklar ve paragraflar
+
+— Sırasız ve sıralı listeler
+
+— Yerel klasörden yüklenen görseller (images/ dizini içinde)
+
+— Dış kaynak bağlantıları
+
+🎯 Amaç
+
+Temel HTML etiketlerini kullanarak çok bölümlü, görsel destekli bir blog yapısı oluşturmak ve dosya sistemi üzerinden görsel çağırmayı öğrenmek.
