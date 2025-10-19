@@ -46,3 +46,43 @@ Gönderme butonu: <input type="submit">
 
 Amaç:
 Form yapısını, etiketleri (<label>) ve kullanıcıdan veri almayı sağlayan temel HTML form elemanlarını tanımak ve doğru şekilde kullanmak.
+
+🧾 Ödev 3 – İlk Web Sayfamızı Oluşturmak 
+
+Bu proje, HTML5 yapısını kullanarak kişisel bir tanıtım (CV) sayfası oluşturmak amacıyla geliştirilmiştir.
+Proje kapsamında temel HTML etiketleri, semantik yapı, bağlantılar ve iframe kullanımı uygulanmıştır.
+
+🧠 Kullanılan Teknolojiler
+
+HTML5
+
+<h1>, <h2>, <p> – Başlık ve paragraflar
+
+<ol>, <ul>, <li> – Sıralı ve sırasız listeler
+
+<a> – Harici bağlantılar (GitHub, LinkedIn, e-posta)
+
+<iframe> – Dış içerik (YouTube videosu) entegrasyonu
+
+<section> – İçeriğin bölümlere ayrılması
+
+🧩 İçerik Yapısı
+
+Kişisel Bilgiler: Ad, e-posta, telefon, LinkedIn ve GitHub bağlantıları
+
+Summary: Geçmiş ve yazılım hedefleri
+
+Eğitim Bilgileri: Üniversiteler ve bootcamp katılımı
+
+İş Deneyimi: Geçmiş çalışma ve staj deneyimleri
+
+Projeler: Python tabanlı otomasyon projesi
+
+Yetenekler: Programlama dilleri, web teknolojileri, dil bilgisi
+
+İletişim: E-posta bağlantısı ve YouTube iframe entegrasyonu
+
+🎯 Amaç
+
+HTML dilinin temel yapı taşlarını kullanarak, biçimlendirilmiş bir kişisel tanıtım sayfası oluşturmak.
+Bu çalışma, semantik etiketleme ve sayfa yapısının bölümlendirilmesi konularında temel bir pratik sağlar.
