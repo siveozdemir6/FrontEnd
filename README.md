@@ -23,4 +23,26 @@ Bu pratikte temel HTML yapısı, tablo oluşturma ve basit stil uygulamaları ö
 **Amaç:**  
 HTML tablo yapısını ve satır/sütun düzenini kavramak, inline stillerle temel görselleştirme yapmak.
 
----
+### 🧾 Ödev 2:Form Elemanları Kullanımı (form_elements.html)
+Bu pratikte temel HTML form elemanları kullanılmıştır. Kullanıcıdan çeşitli bilgiler alabilen bir form oluşturulmuştur.
+
+İçerik:
+
+<form> yapısının kullanımı
+
+Metin giriş alanları: <input type="text">
+
+E-posta alanı: <input type="email">
+
+Parola alanı: <input type="password">
+
+Cinsiyet seçimi: <input type="radio">
+
+Favori meyve seçimi: <select> ve <option>
+
+Mesaj alanı: <textarea>
+
+Gönderme butonu: <input type="submit">
+
+Amaç:
+Form yapısını, etiketleri (<label>) ve kullanıcıdan veri almayı sağlayan temel HTML form elemanlarını tanımak ve doğru şekilde kullanmak.
