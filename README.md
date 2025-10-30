@@ -128,3 +128,66 @@ Proje kapsamında dört sayfa tasarlanmıştır: Ana Sayfa, Hakkında, Gezilecek
 
 HTML5 yapısını kullanarak çok sayfalı, menülü bir rehber sitesi geliştirmek ve
 klasörler arası görsel erişimini (../images/...) doğru şekilde uygulamayı öğrenmek.
+
+## 📁 Week 2
+
+📝 Ödev 1 – Blog Sitesi
+
+Proje Adı: Basit Blog Sitesi
+Amaç: HTML ve CSS kullanarak temel bir blog sitesi oluşturmak.
+
+İçerik:
+
+index.html → Ana sayfa. Son blog gönderilerinin özetleri listelenir.
+
+post.html → Seçilen gönderinin tam içeriği.
+
+styles.css → Sayfa tasarımını ve renk düzenini belirleyen stil dosyası.
+
+Konu:
+Blog yazısı Krzysztof Kieslowski’nin Blue filmi üzerine bir yorumlamadır.
+Ana sayfa film üzerine kısa özetler içerirken, gönderi sayfası özgürlük ve kayıp temalarını detaylı olarak işler.
+
+Teknolojiler:
+HTML 5 | CSS 3
+
+Tasarım Özellikleri:
+
+Beyaz kart tasarımı (box-shadow + border-radius)
+
+Responsive ve sade arayüz
+
+Renk paleti: #f4f4f4 arka plan, #333 başlık, #666 paragraf
+
+🕯️ Ödev 2 – Julio Cortázar Tribute Website
+
+Proje Adı: Julio Cortázar Anma Sitesi
+Amaç: Bir yazar veya edebi figürü tanıtan çok sayfalı, modern bir web sitesi hazırlamak.
+
+İçerik:
+
+index.html → Giriş sayfası (alıntı ve kapak görseli)
+
+info.html → Yazarın hayatı ve kariyeri
+
+books.html → Seçilmiş eserler listesi
+
+styles.css → Ortak modern stil dosyası
+
+/images/ → Görseller (kapak ve portre fotoğrafları)
+
+Konu:
+Julio Cortázar’ın hayatı, edebi tarzı ve önemli eserlerini tanıtan sade, üç sayfalı bir web sitesi.
+
+Tasarım Özellikleri:
+
+Sticky footer ve responsive grid yapı
+
+Hamburger menü (yalnızca HTML + CSS)
+
+Modern renk paleti (koyu mavi-gri ve bej tonları)
+
+Öne çıkan alıntı ve biyografi kartları
+
+Teknolojiler:
+HTML 5 | CSS 3 | Responsive Design
