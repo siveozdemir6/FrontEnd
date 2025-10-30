@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kayıt Formu | CSS Uygulaması</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <h1 id="title">Kayıt Formu (CSS Pratiği)</h1>
+    <p id="description">Lütfen aşağıdaki formu doldurarak kayıt işlemini tamamlayın.</p>
+
+    <form id="survey-form">
+      <!-- İsim -->
+      <label id="name-label" for="name">Ad Soyad</label>
+      <input id="name" type="text" placeholder="Adınızı girin" required />
+
+      <!-- E-posta -->
+      <label id="email-label" for="email">E-posta</label>
+      <input id="email" type="email" placeholder="E-posta adresinizi girin" required />
+
+      <!-- Yaş -->
+      <label id="number-label" for="number">Yaş</label>
+      <input id="number" type="number" min="10" max="100" placeholder="Yaşınızı girin" required />
+
+      <!-- Cinsiyet seçimi -->
+      <label for="dropdown">Cinsiyet</label>
+      <select id="dropdown" required>
+        <option value="">Seçiniz</option>
+        <option value="female">Kadın</option>
+        <option value="male">Erkek</option>
+        <option value="other">Diğer</option>
+      </select>
+
+      <!-- Radyo düğmeleri -->
+      <fieldset class="radio-group">
+        <legend>Formu nereden duydunuz?</legend>
+        <label><input type="radio" name="source" value="instagram" required /> Instagram</label>
+        <label><input type="radio" name="source" value="linkedin" /> Linkedin</label>
+        <label><input type="radio" name="source" value="arkadas" /> Arkadaş önerisi</label>
+      </fieldset>
+
+      <!-- Onay kutuları -->
+      <fieldset class="checkbox-group">
+        <legend>Onay</legend>
+        <label><input type="checkbox" value="terms" required /> Hizmet Şartlarını kabul ediyorum</label>
+        <label><input type="checkbox" value="subscribe" /> Haber bültenine abone olmak istiyorum</label>
+      </fieldset>
+
+      <!-- Yorum alanı -->
+      <label for="comments">Ek yorumlar</label>
+      <textarea id="comments" placeholder="Öneri veya yorumunuzu yazın..."></textarea>
+
+      <!-- Gönder butonu -->
+      <input id="submit" type="submit" value="Gönder" />
+    </form>
+  </div>
+</body>
+</html>

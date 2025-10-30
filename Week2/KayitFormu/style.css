@@ -1,0 +1,119 @@
+/* Genel yapı */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #d94f73, #622e88);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #1e2b38;
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+  width: min(90%, 420px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Başlık ve açıklama */
+#title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+#description {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #cfd7de;
+  margin-bottom: 1.4rem;
+}
+
+/* Form elemanları */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #e4e9ed;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #57b0ba;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #e8f0f2;
+  font-size: 0.95rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #44d7b6;
+  box-shadow: 0 0 0 3px rgba(68, 215, 182, 0.3);
+}
+
+/* Radio ve Checkbox grupları */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0.3rem 0 0.8rem;
+}
+legend {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+label input[type="radio"],
+label input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+/* Textarea */
+textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+/* Gönder butonu */
+#submit {
+  background-color: #44d7b6;
+  color: #1e2b38;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.6rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+#submit:hover {
+  background-color: #38bda2;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 1.5rem;
+  }
+  #title {
+    font-size: 1.3rem;
+  }
+}
