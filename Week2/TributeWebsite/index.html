@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julio Cortázar | Anma Sayfası</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Julio Cortázar</a>
+
+      <!-- Mobil menü: saf HTML/CSS -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menüyü aç/kapat">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Ana menü">
+        <ul class="menu">
+          <li><a href="index.html" class="active">Ana Sayfa</a></li>
+          <li><a href="info.html">Bilgi</a></li>
+          <li><a href="books.html">Eserler</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- Hero -->
+    <section class="hero" style="--hero:url('images/cortazar-hero.jpg')">
+      <div class="container hero-inner">
+        <img class="hero-avatar" src="images/cortazar-portrait.jpg" alt="Julio Cortázar portre">
+        <blockquote class="quote">
+          “Yalnızca rüyalarda, şiirde, oyunda — bazen ne olduğumuzu bilmeden önce ne idiysek ona varırız.”
+          <span class="cite">— Julio Cortázar</span>
+        </blockquote>
+        <a class="btn" href="info.html">Biyografiye Git</a>
+      </div>
+    </section>
+
+    <!-- Öne Çıkanlar -->
+    <section class="container grid-feature">
+      <article class="card">
+        <h2 class="card-title">Latin Amerika Patlamasının Öncülerinden</h2>
+        <p class="card-text">
+          Cortázar, deneysel anlatı teknikleri ve oyunbaz kurgusuyla edebiyatta sınırları zorladı.
+          <em>Rayuela (Seksek)</em> çoklu okuma düzeniyle romanı yeniden tanımladı.
+        </p>
+        <a class="read-more" href="info.html">Daha fazla bilgi →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Kısa Öykünün Ustası</h2>
+        <p class="card-text">
+          <em>Bestiario</em>, <em>Todos los fuegos el fuego</em> gibi derlemelerde gerçek ile
+          olağanüstü arasındaki sınırları inceltti.
+        </p>
+        <a class="read-more" href="books.html">Eserlere göz at →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Bu sayfa Patika CSS Ödevi için hazırlanmıştır — Tasarım: Şive Özdemir</p>
+    </div>
+  </footer>
+</body>
+</html>
